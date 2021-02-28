@@ -30,13 +30,13 @@ In order to run the program, the following steps are to be taken.
 2. Mine atleast 101 blocks (bitcoin-cli -regtest -generate 101) so your block rewards are spendable
 3. Run Script 1 and follow the onscreen instructions.
     
-    #SCRIPT-1
+    SCRIPT-1
 
 4. Be sure to set the future blocks atleast 1 block ahead because when you send funds to the P2SH Address (bitcoin-cli -regtest sendtoaddress <address> <BTC>), you
    have to generate atleast 1 block (bitcoin-cli -regtest -generate 1) so the transaction funding it is mined and it actually has UTXOs to spend.
 5. Be sure to import the P2SH address to the wallet (bitcoin-cli -regtest importaddress <p2sh_address>)
 
-    #SCRIPT-2
+    SCRIPT-2
 
 6. After running script 1 and following the above and the onscreen instructions, run script 2.
 7. Follow the onscreen instructions
