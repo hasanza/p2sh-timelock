@@ -3,9 +3,6 @@ from bitcoinutils.keys import P2shAddress, PublicKey
 from bitcoinutils.script import Script
 from bitcoinutils.proxy import NodeProxy
 
-##BLOCK HEIGHT MUST BE CONVERTED TO AN INT. INPUTS ACCEPTS EVERYTHING AS STRING!
-##IN THE SCRIPT, WE USE THE P2PKH ADDRESS. to_hash160() derives the PK from it!
-
 def main():
     
 #Connect to the regtest
