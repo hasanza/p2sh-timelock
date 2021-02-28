@@ -30,13 +30,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# SK:
-# cQPPFf5F3dvFiLjaG1vTbAvJABvuitu7bfepFrhb6FvKzpLeMWy9
-
-# PK: 0362cf731884e8a27f343b7a1386bcb5d7ae7d316cc794aaa4ecbe155226840415 
-
-# P2SH: 2Mw4sJpbJDdN4Gu6dUHD5eBLqSXjxvfp2AS
-
-
-
